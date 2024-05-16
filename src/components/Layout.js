@@ -26,7 +26,10 @@ const Layout = () => {
 }
 
 const CustomLink = ({ to, children, ...props }) => {
+    // useResolved - react hook to resolve relative and absolute paths as absolute paths. // 
     const resolvedPath = useResolvedPath(to)
+
+    // useMatch - compares the given path to the current path. "End: true" make sure path names find a 100% match rather than partial match. // 
     const isActive = useMatch({ path: resolvedPath.pathname, end: true })
     return (
         <li className={isActive ? "active" : ""}>
