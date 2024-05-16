@@ -15,11 +15,13 @@ body.dark {
 .web {
     background-color: var(--light-color);
     color: var(--dark-color);
+    height:100vh;
 }
 
 .web-dark-theme {
     background-color: var(--dark-color);
     color: var(--light-color);
+    height:100vh;
 }
 
 .nav {
@@ -76,5 +78,5 @@ body.dark {
 
 .nav li:hover,
 .nav-dark-theme li:hover {
-    çbackground-color: #888;
+    background-color: #888;
 }
