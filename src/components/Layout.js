@@ -11,7 +11,7 @@ const Layout = () => {
     return (
         <div className={themeIsDark ? "web-dark-theme" : "web"}>
             <nav className={themeIsDark ? "nav-dark-theme" : "nav"}>
-                <Link to="/" className="site-title">Joseph Kong</Link>
+                <Link to="/" className="site-title">dev</Link>
                 <ul>
                     <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/blog">Blog</CustomLink>

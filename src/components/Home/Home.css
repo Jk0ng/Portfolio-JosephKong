@@ -1,0 +1,21 @@
+
+.home{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 100%;
+} 
+
+.header{
+    font-size: 130px;
+    font-weight:bold
+}
+
+span{
+    font-size: 100px;
+}
+
+.noun{
+    font-size: 30px;
+    padding-left: 40px;
+}

@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+
 }
 body {
     /* CSS variables for light/dark theme*/
     --light-color: white;
-    --dark-color: #333;
+    --dark-color: black;
     margin: 0;
     background-color: var(--light-color);
 }
@@ -29,7 +31,7 @@ body.dark {
     background-color: var(--dark-color);
     color: var(--light-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     gap: 0rem;
     padding: 0 5rem;
@@ -39,7 +41,7 @@ body.dark {
     background-color: var(--light-color);
     color: var(--dark-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     gap: 0rem;
     padding: 0 5rem;
